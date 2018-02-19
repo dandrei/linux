@@ -1,4 +1,4 @@
-#Pop!_OS terminal color scheme for Terminator
+# Pop!_OS terminal color scheme for Terminator
 
 The following config will change your default Terminator config to match the colors of the default terminal (for Pop!_OS v17.10). To be saved under: `~/.config/terminator/config`
 
