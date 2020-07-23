@@ -11,7 +11,7 @@ function GET_CPU() {
 function GET_RAM() {
   KB=$(awk '/MemTotal/ {print $2}' /proc/meminfo)
   B=$((1024 * KB))
-  numfmt --to=iec --format="%.2f" $B
+  numfmt --to=iec --format="%-2f" $B
 }
 
 function GET_DSK() {
